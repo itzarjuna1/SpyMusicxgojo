@@ -1,5 +1,4 @@
-# spymusic/plugins/tools/vcmembers.py
-
+# made by itz arjuna copyrighted under us
 from pyrogram import filters
 from pyrogram.raw.functions.phone import GetGroupCall, GetGroupCallParticipants
 from pyrogram.raw.types import InputGroupCall
