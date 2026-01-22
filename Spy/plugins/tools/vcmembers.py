@@ -5,7 +5,7 @@ from pyrogram.raw.functions.phone import GetGroupCall, GetGroupCallParticipants
 from pyrogram.raw.types import InputGroupCall
 from pyrogram.enums import ParseMode
 
-from spymusic import app
+from Spy import app
 
 
 # -------------------- SMALL CAPS -------------------- #
