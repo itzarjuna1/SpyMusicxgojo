@@ -21,6 +21,7 @@ requests
 speedtest-cli
 spotipy
 tgcrypto
+ntgcalls==2.0.7
 unidecode
 yt-dlp
 git+https://github.com/yt-dlp/yt-dlp
