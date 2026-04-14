@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "35279715"))
+API_ID = int(getenv("API_ID", "23450648"))
 
-API_HASH = getenv("API_HASH", "b4c339216397b5941d88c8617d2dc12b")
+API_HASH = getenv("API_HASH", "177973c53d36a5db484cabfce1b9bf2f")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003228624224"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003882647583"))
 
-OWNER_ID = int(getenv("OWNER_ID", "7651303468"))
+OWNER_ID = int(getenv("OWNER_ID", "8364692780"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "gojo_x_jinwoo_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SNOWY_X_MUSICBOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,16 +42,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_musictm")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/snowy_hometown")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/theinfinitynetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/theinfinity_support")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
 AUTO_SUGGESTION_TIME = int(
     getenv("AUTO_SUGGESTION_TIME", "500"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "6fb7e1766693439b86ec57e3deb3c36f")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "da3f94c6a68d49f6b64a7216ec9eb905")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
 
 
 
@@ -86,21 +86,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/k8ix72.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/8fdj9b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/k8ix72.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/8fdj9b.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/k8ix72.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/k8ix72.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/k8ix72.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/8fdj9b.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/8fdj9b.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/8fdj9b.jpg"
 
 
 def time_to_seconds(time):
